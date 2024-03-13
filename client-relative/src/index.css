@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'MPLUS1p-Black';
+  src: local('MPLUS1p-Black'), url(./font/MPLUS1p-Black.ttf) format('truetype');  
+}
+
+@font-face{
+  font-family: 'MPLUS1p-Light';
+  src: local('MPLUS1p-Light'), url(./font/MPLUS1p-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MPLUS1p-Thin';
+  src: local('MPLUS1p-Thin'), url(./font/MPLUS1p-Thin.ttf) format('truetype');
+  
+}
+
+@font-face{
+  font-family: 'MPLUS1p-Regular';
+  src: local('MPLUS1p-Regular'), url(./font/MPLUS1p-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MPLUS1p-Medium';
+  src: local('MPLUS1p-Medium'), url(./font/MPLUS1p-Medium.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

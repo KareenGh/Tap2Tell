@@ -1,0 +1,1 @@
+export const NO_SPECIAL_CHARS_REGEX = /^((?![!@#$%^&*]).){1,60}$/;

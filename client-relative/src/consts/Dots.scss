@@ -1,0 +1,29 @@
+@function vh($quantity) {
+    @return calc(var(--vh, 1vh) * #{$quantity});
+  }
+  
+  @function vw($quantity) {
+    @return calc(var(--vw, 1vw) * #{$quantity});
+  }
+  
+.whiteDot {
+    width: vh(3);
+    height: vh(3);
+    border-radius: 50%;
+    background: white 0% 0% no-repeat padding-box;
+    opacity: 1; 
+}
+.orangeDot {
+    width: vh(3);
+    height: vh(3);
+    border-radius: 50%;
+    background: #FF8000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.noColorDot {
+    width: vh(3);
+    height: vh(3);
+    border-radius: 50%;
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

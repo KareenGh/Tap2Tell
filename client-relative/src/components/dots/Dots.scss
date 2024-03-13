@@ -1,0 +1,21 @@
+
+@function vh($quantity) {
+    @return calc(var(--vh, 1vh) * #{$quantity});
+  }
+  
+  @function vw($quantity) {
+    @return calc(var(--vw, 1vw) * #{$quantity});
+  }
+.dotsContainer {
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: center;
+    // height: 3%;
+    // background-color: turquoise;
+    // opacity: 0.5;
+    top: vh(87.5);
+    width: vw(30);
+}

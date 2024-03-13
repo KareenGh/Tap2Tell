@@ -1,0 +1,3 @@
+[submodule "client-child"]
+	path = client-child
+	url = https://github.com/hilma-tech/client-child.git

@@ -1,0 +1,58 @@
+{
+  "name": "client-relative",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "@hilma/fileshandler-client": "0.0.18",
+    "@hilma/tools": "^0.1.22",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "audio-recorder-polyfill": "^0.4.1",
+    "axios": "^0.21.0",
+    "device-uuid": "^1.0.4",
+    "expo-linking": "^2.2.3",
+    "ffmpeg": "0.0.4",
+    "lamejs": "^1.2.0",
+    "logrocket": "^3.0.0",
+    "mic-recorder-to-mp3": "^2.2.2",
+    "react": "^17.0.1",
+    "react-audio-analyser": "^0.3.1",
+    "react-content-loader": "^6.0.3",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0",
+    "react-image-file-resizer": "^0.4.7",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "sass": "^1.29.0",
+    "typescript": "^4.1.2",
+    "uuid": "^8.3.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>209116238391-jbdr4q6nkd6c1hgaq2psqv8vdnkr86hg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.209116238391-jbdr4q6nkd6c1hgaq2psqv8vdnkr86hg</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>209116238391-4031g0tjhejskv28ki942mhjtu6u0nb2.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBCmABuYwH9wA_dG9KHZwZBVuGXFOBWwLE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>209116238391</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hilma.tap2tell</string>
+	<key>PROJECT_ID</key>
+	<string>tap2tell-401ab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tap2tell-401ab.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:209116238391:ios:a99425de100d1b21dca5b2</string>
+</dict>
+</plist>

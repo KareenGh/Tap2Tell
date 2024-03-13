@@ -1,0 +1,39 @@
+.pageContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+
+.loadImage{
+    position: absolute;
+    width: 60%;
+    display: flex;
+    align-self: center;
+    top: 30%;
+    z-index: 20;
+    /* background-color: blue; */
+}
+
+.emailtext {
+    position: absolute;
+    color: #FF8000;
+    font-family: 'MPLUS1p-Regular', sans-serif;
+    direction: rtl;
+    font-size: 11vw;
+    margin-top: 25vh;
+    /* background-color: cadetblue;
+    opacity: 0.5; */
+}
+
+.emailMonster {
+    position: absolute;
+    left: 20vw;
+    bottom: 0;
+    animation-name: littleMonster;
+    animation-delay: -0.2s;
+    animation-duration: 2s;
+    /* background-color: cadetblue;
+    opacity: 0.5; */
+}

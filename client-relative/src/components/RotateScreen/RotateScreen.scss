@@ -1,0 +1,22 @@
+@function vh($quantity) {
+    @return calc(var(--vh, 1vh) * #{$quantity});
+  }
+  
+  @function vw($quantity) {
+    @return calc(var(--vw, 1vw) * #{$quantity});
+  }
+
+  .container {
+
+    // justify-content: space-between;
+    height: vh(80);
+    margin-top: vh(-20);
+    position: relative;
+    /* background-color: beige; 
+    opacity: 0.5;  */
+}
+
+.rotateScreen{
+    height: vh(50);
+    transform: rotate(270deg); 
+}

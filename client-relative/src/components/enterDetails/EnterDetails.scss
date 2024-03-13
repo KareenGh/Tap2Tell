@@ -1,0 +1,111 @@
+@function vh($quantity) {
+    @return calc(var(--vh, 1vh) * #{$quantity});
+  }
+  
+  @function vw($quantity) {
+    @return calc(var(--vw, 1vw) * #{$quantity});
+  }
+  $border-width: 0.8px;
+
+.enterDetailsContainer {
+    width: vw(100);
+    height: vh(100);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: violet;
+    // opacity: 0.5; 
+}
+.bigImageEnter{
+    font-size: vh(3);
+    font-family: 'MPLUS1p-Regular', sans-serif;
+    // margin-top: 23vh;
+    margin-top: vh(12);
+    background-color: #015c7d;
+    color: #F7FDDC;
+    width: vw(100);
+    height: vh(5);
+}
+.littleIconMan {
+    width: vh(12);
+    height: vh(12);
+    margin-top: vh(14);
+    border-radius: 100px;
+}
+
+.enterDetailsText {
+    color: #FF8000;
+    font-weight: bold;
+
+    font-family: 'MPLUS1p-Regular', sans-serif;
+    direction: rtl;
+    font-size: vh(3.3);
+    margin-top: vh(2);
+    // background-color: lightblue;
+}
+
+.enterDetailsText2 {
+    color: #FF8000;
+    font-weight: bold;
+
+    font-family: 'MPLUS1p-Regular', sans-serif;
+    direction: rtl;
+    font-size: vh(4);
+    margin-top: vh(5);
+    text-align: center;
+    margin-bottom: vh(2);
+    // background-color: lightcoral;
+}
+
+.enterDetailsText3 {
+    color: #FF8000;
+    font-weight: bold;
+
+    font-family: 'MPLUS1p-Regular', sans-serif;
+    direction: rtl;
+    font-size: vh(2.8);
+    margin-bottom: vh(1);
+    // background-color: lightgreen;
+}
+
+::placeholder { 
+    padding-right: vw(2);
+    text-align: right;
+    color: #FF8000;
+    font-weight: bold;
+    font-family: 'MPLUS1p-Regular', sans-serif;
+
+    font-size: vh(2.5);
+    // background-color: lightpink;
+    height: vh(3);
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.envelopeIcon {
+    width: vh(11);
+    height: vh(11);
+    margin-top: vh(7);
+    margin-bottom: vh(10);
+    
+}
+#name {
+    background-color: #F7FDDC;
+    border-color: #FF8000;
+    border-width: $border-width;
+    border-radius: 15px;
+    opacity: 0.8;
+    width: vw(55);
+    height: vh(4);
+    margin-top: 2%;
+    text-align: right;
+    color: #FF8000;
+}
+
+input {
+    font-family: 'MPLUS1p-Regular', sans-serif;
+    font-weight: bold;
+
+}
+

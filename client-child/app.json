@@ -1,0 +1,78 @@
+{
+  "name": "tap2tell",
+  "displayName": "tap2tell",
+  "expo": {
+    "scheme": "tap2tell",
+    "name": "tap2tell",
+    "slug": "tap2tell",
+    "version": "1.0.2",
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "jsx",
+        "ts",
+        "tsx",
+        "svg",
+        "json",
+        "vue"
+      ]
+    },
+    "orientation": "portrait",
+    "icon": "./assets/splash1.png",
+    "splash": {
+      "image": "./assets/monster.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/images/*"
+    ],
+    "ios": {
+      "userInterfaceStyle": "light",
+      "requireFullScreen": true,
+      "supportsTablet": false,
+      "bundleIdentifier": "com.hilma.tap2tell",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.209116238391-jbdr4q6nkd6c1hgaq2psqv8vdnkr86hg"
+        }
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "web": {
+      "favicon": "./assets/splash1.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyC_7-uK-nmS9z_W7Y2ITbuca8cNmtCa1Lg",
+          "authDomain": "tap2tell-401ab.firebaseapp.com",
+          "projectId": "tap2tell-401ab",
+          "storageBucket": "tap2tell-401ab.appspot.com",
+          "messagingSenderId": "209116238391",
+          "appId": "1:209116238391:web:0dc2c9e0c8c83dc3dca5b2",
+          "measurementId": "G-K33X0LMBJT"
+        }
+      }
+    },
+    "android": {
+      "userInterfaceStyle": "light",
+      "package": "com.hilma.tap2tell",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash1.png",
+        "backgroundColor": "#F7FDDC"
+      },
+      "icon": "./assets/splash1.png",
+      "permissions": [
+        "CAMERA",
+        "READ_INTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "versionCode": 21
+    }
+  }
+}

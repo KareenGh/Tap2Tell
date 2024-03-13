@@ -1,0 +1,45 @@
+
+
+@function vh($quantity) {
+    @return calc(var(--vh, 1vh) * #{$quantity});
+  }
+  
+  @function vw($quantity) {
+    @return calc(var(--vw, 1vw) * #{$quantity});
+  }
+
+.backgroundContainer {
+    height: vh(100);
+    width: vw(100);
+    // width: 100vw;
+    // height: 100vh;
+    position: absolute;
+    // background-color: indigo;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.background {
+  //  height: 100%;
+  // width: 100%; 
+  height: vh(100);
+  width: vw(100);
+  // overflow: unset;
+  // top: 0;
+  // right: 0;
+  // bottom: 0;
+  // left: 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .logo {
+      position: fixed;
+      top: 0;
+      left: 4%;
+      height: vh(10);
+      width: vh(20);
+  } 

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "209116238391",
+    "project_id": "tap2tell-401ab",
+    "storage_bucket": "tap2tell-401ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209116238391:android:2e5f0402044996e2dca5b2",
+        "android_client_info": {
+          "package_name": "com.hilma.tap2tell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209116238391-4031g0tjhejskv28ki942mhjtu6u0nb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hilma.tap2tell",
+            "certificate_hash": "66623439bb5d2a531cfc5b2dad81476127ac3710"
+          }
+        },
+        {
+          "client_id": "209116238391-jpabe0ecrsumfoc9b7n09vk548ibq80i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD156iDgkpzBwe2qXmo2nyWuvpnBIQz_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105868652773441148110",
+              "client_type": 3
+            },
+            {
+              "client_id": "209116238391-jbdr4q6nkd6c1hgaq2psqv8vdnkr86hg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hilma.tap2tell"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+import loadable from '@loadable/component'
+
+
+export const ANIMATIONS_GIFS = {
+  'א': require('../../assets/letterGifs/letterא.gif'),
+  'ב': require('../../assets/letterGifs/letterב.gif'),
+  'ג': require('../../assets/letterGifs/letterג.gif'),
+  'ד': require('../../assets/letterGifs/letterד.gif'),
+  'ה': require('../../assets/letterGifs/letterה.gif'),
+  'ו': require('../../assets/letterGifs/letterו.gif'),
+  'ז': require('../../assets/letterGifs/letterז.gif'),
+  'ח': require('../../assets/letterGifs/letterח.gif'),
+  'ט': require('../../assets/letterGifs/letterט.gif'),
+  'י': require('../../assets/letterGifs/letterי.gif'),
+  'כ': require('../../assets/letterGifs/letterכ.gif'),
+  'ל': require('../../assets/letterGifs/letterל.gif'),
+  'מ': require('../../assets/letterGifs/letterמ.gif'),
+  'נ': require('../../assets/letterGifs/letterנ.gif'),
+  'ס': require('../../assets/letterGifs/letterס.gif'),
+  'ע': require('../../assets/letterGifs/letterע.gif'),
+  'פ': require('../../assets/letterGifs/letterפ.gif'),
+  'צ': require('../../assets/letterGifs/letterצ.gif'),
+  'ק': require('../../assets/letterGifs/letterק.gif'),
+  'ר': require('../../assets/letterGifs/letterר.gif'),
+  'ש': require('../../assets/letterGifs/letterש.gif'),
+  'ת': require('../../assets/letterGifs/letterת.gif')
+}
+
+export const GIF_AUDIO = {
+  'א': require('../../assets/letterAudio/gifAudio.mp3'),
+  'ב': require('../../assets/letterAudio/gifAudio(1).mp3'),
+  'ג': require('../../assets/letterAudio/gifAudio(2).mp3'),
+  'ד': require('../../assets/letterAudio/gifAudio(3).mp3'),
+  'ה': require('../../assets/letterAudio/gifAudio(4).mp3'),
+  'ו': require('../../assets/letterAudio/gifAudio(5).mp3'),
+  'ז': require('../../assets/letterAudio/gifAudio(6).mp3'),
+  'ח': require('../../assets/letterAudio/gifAudio(7).mp3'),
+  'ט': require('../../assets/letterAudio/gifAudio(8).mp3'),
+  'י': require('../../assets/letterAudio/gifAudio(9).mp3'),
+  'כ': require('../../assets/letterAudio/gifAudio(10).mp3'),
+  'ל': require('../../assets/letterAudio/gifAudio(11).mp3'),
+  'מ': require('../../assets/letterAudio/gifAudio(12).mp3'),
+  'נ': require('../../assets/letterAudio/gifAudio(13).mp3'),
+  'ס': require('../../assets/letterAudio/gifAudio(14).mp3'),
+  'ע': require('../../assets/letterAudio/gifAudio(15).mp3'),
+  'פ': require('../../assets/letterAudio/gifAudio(16).mp3'),
+  'צ': require('../../assets/letterAudio/gifAudio(17).mp3'),
+  'ק': require('../../assets/letterAudio/gifAudio(18).mp3'),
+  'ר': require('../../assets/letterAudio/gifAudio(19).mp3'),
+  'ש': require('../../assets/letterAudio/gifAudio(20).mp3'),
+  'ת': require('../../assets/letterAudio/gifAudio(21).mp3')
+}
+
+// export const ANIMATIONS_GIFS = {
+//     'א': loadable(() => import('../../assets/letterGifs/letterא.gif')),
+//     'ב': loadable(() => import('../../assets/letterGifs/letterב.gif')),
+//     'ג': loadable(() => import('../../assets/letterGifs/letterג.gif')),
+//     'ד': loadable(() => import('../../assets/letterGifs/letterד.gif')),
+//     'ה': loadable(() => import('../../assets/letterGifs/letterה.gif')),
+//     'ו': loadable(() => import('../../assets/letterGifs/letterו.gif')),
+//     'ז': loadable(() => import('../../assets/letterGifs/letterז.gif')),
+//     'ח': loadable(() => import('../../assets/letterGifs/letterח.gif')),
+//     'ט': loadable(() => import('../../assets/letterGifs/letterט.gif')),
+//     'י': loadable(() => import('../../assets/letterGifs/letterי.gif')),
+//     'כ': loadable(() => import('../../assets/letterGifs/letterכ.gif')),
+//     'ל': loadable(() => import('../../assets/letterGifs/letterל.gif')),
+//     'מ': loadable(() => import('../../assets/letterGifs/letterמ.gif')),
+//     'נ': loadable(() => import('../../assets/letterGifs/letterנ.gif')),
+//     'ס': loadable(() => import('../../assets/letterGifs/letterס.gif')),
+//     'ע': loadable(() => import('../../assets/letterGifs/letterע.gif')),
+//     'פ': loadable(() => import('../../assets/letterGifs/letterפ.gif')),
+//     'צ': loadable(() => import('../../assets/letterGifs/letterצ.gif')),
+//     'ק': loadable(() => import('../../assets/letterGifs/letterק.gif')),
+//     'ר': loadable(() => import('../../assets/letterGifs/letterר.gif')),
+//     'ש': loadable(() => import('../../assets/letterGifs/letterש.gif')),
+//     'ת': loadable(() => import('../../assets/letterGifs/letterת.gif'))
+//   }

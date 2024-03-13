@@ -1,0 +1,17 @@
+{
+  "type": "mysql",
+  "host": "mysql8b.mysql.database.azure.com",
+  "port": 3306,
+  "username": "tap2tell@mysql8b",
+  "password": "7b0BCfNeFAUKC",
+  "database": "tap2tell",
+  "entities": [
+    "node_modules/@hilma/data-nest/dist/**/*.entity{.ts,.js}",
+    "dist/**/*.entity{.ts,.js}",
+    "node_modules/@hilma/auth-nest/dist/**/*.entity{.ts,.js}",
+    "node_modules/@hilma/fileshandler-typeorm/**/*.entity.{ts,js}"
+  ],
+  "synchronize": false,
+  "logging": false,
+  "ssl": true
+}

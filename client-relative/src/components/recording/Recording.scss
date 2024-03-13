@@ -1,0 +1,155 @@
+@function vh($quantity) {
+    @return calc(var(--vh, 1vh) * #{$quantity});
+  }
+  
+  @function vw($quantity) {
+    @return calc(var(--vw, 1vw) * #{$quantity});
+  }
+  
+
+.recordingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: vw(20);
+    top: vh(20);
+    // background-color: saddlebrown;
+} 
+
+.textsContainer {
+    position: absolute;
+    top: vh(20);
+    width: vw(75);
+    // background-color: plum;
+}
+.recordingText {
+    z-index: 5;
+    color: #FF8000;
+    font-weight: bold;
+    font-family: 'MPLUS1p-Regular', sans-serif;
+    direction: rtl; 
+    font-size: vw(6.5);
+    // background-color: salmon;
+}
+
+.recordingText2 {
+    z-index: 5;
+    color: #FF8000;
+    font-weight: bold;
+    font-family: 'MPLUS1p-Regular', sans-serif;
+    direction: rtl;
+    font-size: vw(5);
+    margin-top: vh(3);
+    // background-color: seagreen;
+}
+
+.recordingSymbol {
+    top: vh(60);
+    width: vh(13);
+    height: vh(13);
+    z-index: 3;
+    position: absolute;
+}
+.recordingGif{
+    width: vh(18);
+    height: vh(18);
+    border-color: #FF8000;
+    z-index: 1;
+    top: vh(57.5);
+    position: absolute;
+}
+
+.iconsContainer {
+    position: absolute;
+    margin-top: vh(1);
+    width: vw(65);
+    align-items: center;
+    flex-direction: row;
+    // background-color: seagreen;
+
+}
+.hearingRecordCon{
+    position: absolute;
+    top: vh(45);
+    width: vw(65);
+    // background-color: skyblue;
+}
+.recording {
+    display: flex;
+    width: vw(65);
+    height: vh(8);
+    border-radius: 15px;
+    background-color: #FF8000;
+    margin-top: vh(5);
+    margin-bottom: vh(5);
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    // background-color: slateblue;
+}
+
+.sendImage {
+    margin-right: vw(15);
+    height: vh(10);
+    width: vh(10);
+    justify-content: flex-start;
+    border-radius: 100;
+    // scrollbar-shadow-color: '#000';
+    // shadow-offset: {
+    //     width: 0;
+    //     height: 3;
+    // },
+    // shadow-opacity: 0.16;
+    // shadowRadius: 6;
+    // elevation: 6
+}
+
+.tryAgain {
+    height: vh(10);
+    width: vh(10);
+    justify-content:flex-end;
+    border-radius: 100;
+    // shadowColor: '#000';
+    // shadowOffset: {
+    //     width: 0;
+    //     height: 3;
+    // };
+    // shadowOpacity: 0.16;
+    // shadowRadius: 6;
+    // elevation: 6
+}
+
+.icon {
+    width: vw(7);
+    height: vh(3);
+    color: white
+}
+.progressBar {
+    width: vw(45);
+    margin-left: vw(5)
+}
+
+audio{
+    width: vw(65);
+    height: vh(10);
+    position: absolute;
+}
+
+#audio-recorder{
+    color: blue;
+}
+
+body { -webkit-touch-callout: none !important; }
+a { -webkit-user-select: none !important; }
+/* 
+.dotsContainer2 {
+    background-color: violet;
+    opacity: 0.5;
+    width: 25vw;
+    margin-left: 20.5vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 24.5vh;
+    justify-content: space-between;
+} */

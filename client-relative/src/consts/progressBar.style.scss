@@ -1,0 +1,17 @@
+@function vh($quantity) {
+    @return calc(var(--vh, 1vh) * #{$quantity});
+  }
+  
+  @function vw($quantity) {
+    @return calc(var(--vw, 1vw) * #{$quantity});
+  }
+  
+
+.containerStyles{
+    height: vh(1);
+    width: 100%;
+    background-color: #e0e0de;
+    border-radius: 50px;
+    z-index: 10;
+    //   margin: 20
+}

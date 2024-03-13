@@ -1,0 +1,7 @@
+export const ImageStatus = {
+
+APPROVED: "APPROVED",
+PENDING: "PENDING",
+DISAPPROVED: "DISAPPROVED"
+
+}

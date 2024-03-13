@@ -1,0 +1,30 @@
+/* todo */
+
+
+.tryAgainContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100vw;
+}
+
+.tryAgainText {
+    color: #FF8000;
+    font-family: 'MPLUS1p-Regular', sans-serif;
+    font-size: 9vw;
+    direction: rtl;
+    top: 25vh;
+    left: 7vw;
+    right: 7vw;
+    position: absolute;
+    /* background-color: mediumseagreen; */
+}
+
+.tryAgainMonster {
+    height: 42vh;
+    width: 68vw;
+    bottom: 0;
+    left: 16vw;
+    position: absolute;
+    /* background-color: cornflowerblue; */
+}
